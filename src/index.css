@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  
+  --color-ledger-bg: #EFEEE6;
+  --color-ledger-surface: #FFFFFF;
+  --color-ledger-ink: #23282B;
+  --color-ledger-muted: #6B6F66;
+  --color-ledger-line: #DAD6C6;
+  --color-ledger-income: #3F6E52;
+  --color-ledger-income-bg: #E4EEE3;
+  --color-ledger-expense: #A8442F;
+  --color-ledger-expense-bg: #F5E4DE;
+}
+
+body {
+  background-color: var(--color-ledger-bg);
+  color: var(--color-ledger-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+

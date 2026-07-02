@@ -1,0 +1,16 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local data store — contains real user emails, don't publish
+data/
+
+# Editor/OS cruft
+.vscode/
+.idea/
+Thumbs.db

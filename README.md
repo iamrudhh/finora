@@ -25,10 +25,6 @@ Built as a personal project to learn full-stack development with React, Express,
 | Database | Supabase (PostgreSQL) |
 | AI | Google Gemini API |
 
-## 📸 Screenshots
-
-> _Add a screenshot or two here once you have the app running — drag images into this section on GitHub, or link them like:_
-> `![Dashboard](./screenshots/dashboard.png)`
 
 ## 🚀 Getting Started
 
